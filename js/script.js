@@ -7,10 +7,28 @@ document.addEventListener('DOMContentLoaded', function() {
             e.preventDefault();
             const targetId = this.getAttribute('href').substring(1);
             const targetSection = document.getElementById(targetId);
-            targetSection.scrollIntoView({ behavior: 'smooth' });
+            if (targetSection) {
+                targetSection.scrollIntoView({ behavior: 'smooth' });
+            }
         });
     });
 
-    // Add more interactivity as needed
+    const imageInput = document.getElementById('imageUpload');
+    const heroPreview = document.getElementById('heroImagePreview');
+
+    if (imageInput && heroPreview) {
+        imageInput.addEventListener('change', function () {
+            const file = this.files[0];
+            if (!file) return;
+
+            const reader = new FileReader();
+            reader.onload = function () {
+                heroPreview.style.backgroundImage = `url('${reader.result}')`;
+                heroPreview.textContent = '';
+            };
+            reader.readAsDataURL(file);
+        });
+    }
+
     console.log('Portfolio loaded successfully!');
 });
