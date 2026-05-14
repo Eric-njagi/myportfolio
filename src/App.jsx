@@ -119,10 +119,10 @@ function Home() {
       };
 
       await emailjs.send(
-        'service_x9oq0pf', // Replace with your EmailJS service ID
-        'template_se4q6he', // Replace with your EmailJS template ID
+        'service_iukqau6', // Replace with your EmailJS service ID
+        'template_ykll8xx', // Replace with your EmailJS template ID
         templateParams,
-        'VKdJ9CuLlJWxJNjp2' // Replace with your EmailJS public key
+        'veYJRI0DMk5nblJKX' // Replace with your EmailJS public key
       );
 
       setSubmitStatus('success');
@@ -431,7 +431,7 @@ function Home() {
               alignItems: 'center',
               marginLeft: '1rem'
             }}>
-                <a href="https://gitlab.com/CloudChuck" 
+                <a href="https://github.com/Eric-njagi" 
                  target="_blank" 
                  rel="noopener noreferrer"
                  style={{
@@ -445,7 +445,7 @@ function Home() {
               >
                 <i className="fab fa-gitlab"></i>
               </a>
-               <a href="https://github.com/ChuckyCharles" 
+               <a href="https://github.com/Eric-njagi" 
                  target="_blank" 
                  rel="noopener noreferrer"
                  style={{
@@ -459,7 +459,7 @@ function Home() {
               >
                 <i className="fab fa-github"></i>
               </a>
-              <a href="https://www.linkedin.com/in/charles-ochieng-177ba3253" 
+              <a href="https://www.linkedin.com/in/eric-kina-b06947334" 
                  target="_blank" 
                  rel="noopener noreferrer"
                  style={{
@@ -473,7 +473,7 @@ function Home() {
               >
                 <i className="fab fa-linkedin"></i>
               </a>
-              <a href="https://x.com/CharlesO21441" 
+              <a href="https://x.com/manrick" 
                  target="_blank" 
                  rel="noopener noreferrer"
                  style={{
@@ -487,7 +487,7 @@ function Home() {
               >
                 <i className="fab fa-twitter"></i>
               </a>
-              <a href="mailto:ochiengcharles531@gmail.com" 
+              <a href="mailto:kina3eric@gmail.com" 
                  style={{
                    color: 'rgba(255, 255, 255, 0.7)',
                    fontSize: '1.2rem',
@@ -583,7 +583,7 @@ function Home() {
             alignItems: 'center',
             marginTop: '2rem'
           }}>
-             <a href="https://gitlab.com/CloudChuck"
+             <a href="https://github.com/Eric-njagi"
                target="_blank" 
                rel="noopener noreferrer"
                style={{
@@ -595,7 +595,7 @@ function Home() {
             >
               <i className="fab fa-gitlab"></i>
             </a>
-            <a href="https://www.linkedin.com/in/charles-ochieng-177ba3253" 
+            <a href="https://www.linkedin.com/in/eric-kina-b06947334" 
                target="_blank" 
                rel="noopener noreferrer"
                style={{
@@ -607,7 +607,7 @@ function Home() {
             >
               <i className="fab fa-linkedin"></i>
             </a>
-               <a href="https://github.com/ChuckyCharles" 
+               <a href="https://github.com/Eric-njagi" 
                target="_blank" 
                rel="noopener noreferrer"
                style={{
@@ -619,7 +619,7 @@ function Home() {
             >
               <i className="fab fa-github"></i>
             </a>
-            <a href="https://x.com/CharlesO21441" 
+            <a href="https://x.com/manrick" 
                target="_blank" 
                rel="noopener noreferrer"
                style={{
@@ -1194,7 +1194,7 @@ function Home() {
                 gap: '1rem',
                 flexWrap: 'wrap'
               }}>
-                <a href="https://www.linkedin.com/in/charles-ochieng-177ba3253" 
+                <a href="https://www.linkedin.com/in/eric-kina-b06947334" 
                    target="_blank"
                    rel="noopener noreferrer"
                    style={{
@@ -1214,7 +1214,7 @@ function Home() {
                    }}>
                   LinkedIn
                 </a>
-                <a href="https://github.com/ChuckyCharles" 
+                <a href="https://github.com/Eric-njagi" 
                    target="_blank"
                    rel="noopener noreferrer"
                    style={{
