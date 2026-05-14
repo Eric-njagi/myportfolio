@@ -26,10 +26,10 @@ const PROJECTS = [
     link: '#'
   },
   {
-    title: 'OpenShift Voting App',
-    description: 'Containerized voting application with CI/CD on OpenShift.',
-    technologies: ['OpenShift', 'Kubernetes', 'ROSA'],
-    link: '#'
+    title: 'Integrated Domestic Market Platform (TrustHome)',
+    description: 'TrustHome marketplace platform for domestic trade and service integration.',
+    technologies: ['React', 'Node.js', 'Docker'],
+    link: 'https://github.com/ChuckyCharles/TrustHome'
   }
 ];
 
