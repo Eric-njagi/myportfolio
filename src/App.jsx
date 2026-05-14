@@ -1052,100 +1052,6 @@ function Home() {
               </div>
             </div>
             
-            {/* Technical Writer Card */}
-            <div style={{
-              background: 'rgba(30, 41, 59, 0.8)',
-              border: '1px solid rgba(75, 85, 99, 0.3)',
-              borderRadius: '12px',
-              padding: '2rem',
-              backdropFilter: 'blur(10px)'
-            }}>
-              <div style={{
-                display: 'flex',
-                alignItems: 'flex-start',
-                gap: '1rem',
-                marginBottom: '1.5rem'
-              }}>
-                <div style={{
-                  width: '60px',
-                  height: '60px',
-                  background: 'linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%)',
-                  borderRadius: '12px',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  fontSize: '1.5rem',
-                  border: '1px solid rgba(59, 130, 246, 0.3)'
-                }}>
-                  ✍️
-                </div>
-                <div style={{ flex: 1 }}>
-                  <h3 style={{
-                    fontSize: '1.25rem',
-                    fontWeight: 700,
-                    color: '#ffffff',
-                    marginBottom: '0.5rem'
-                  }}>Technical Writer</h3>
-                  <div style={{
-                    color: '#3b82f6',
-                    fontSize: '0.9rem',
-                    fontWeight: 600,
-                    marginBottom: '0.5rem'
-                  }}>Hashnode Platform</div>
-                  <div style={{
-                    color: '#9ca3af',
-                    fontSize: '0.8rem',
-                    display: 'flex',
-                    alignItems: 'center',
-                    gap: '0.5rem'
-                  }}>
-                    <span>⏰</span> May 2024 - Current
-                  </div>
-                </div>
-              </div>
-              
-              <div style={{
-                marginBottom: '1rem'
-              }}>
-                <div style={{
-                  color: '#10b981',
-                  fontSize: '0.85rem',
-                  fontWeight: 600,
-                  marginBottom: '0.5rem'
-                }}>Focus:</div>
-                <p style={{
-                  color: '#d1d5db',
-                  fontSize: '0.9rem',
-                  lineHeight: 1.5,
-                  marginBottom: '1rem'
-                }}>Creating technical content for developers in tech</p>
-                
-                <p style={{
-                  color: '#9ca3af',
-                  fontSize: '0.85rem',
-                  lineHeight: 1.5
-                }}>Contributing technical articles and tutorials to support technology in Africa and beyond. Topics include virtualization, cloud computing, and DevOps practices.</p>
-              </div>
-              
-              <div style={{
-                background: 'rgba(75, 85, 99, 0.3)',
-                padding: '1rem',
-                borderRadius: '8px',
-                border: '1px solid rgba(75, 85, 99, 0.4)'
-              }}>
-                <div style={{
-                  color: '#10b981',
-                  fontSize: '0.8rem',
-                  fontWeight: 600,
-                  marginBottom: '0.5rem'
-                }}>Impact:</div>
-                <p style={{
-                  color: '#d1d5db',
-                  fontSize: '0.85rem',
-                  lineHeight: 1.4
-                }}>Articles reached 5,000+ readers, contributing to increased participation in tech events</p>
-              </div>
-            </div>
           </div>
         </div>
       </section>
@@ -1941,7 +1847,7 @@ function ExperiencePanel({ activeTab }) {
     return (
       <div className="experience-card">
         <h3>Cloud Support Engineer</h3>
-        <div className="experience-meta">Angani Limited · Jul 2025 - Sep 2025</div>
+        <div className="experience-meta">Jul 2025 - Sep 2025</div>
         <p>Delivered infrastructure support and automation improvements while reducing escalations and optimizing resource use.</p>
       </div>
     );
@@ -1952,7 +1858,7 @@ function ExperiencePanel({ activeTab }) {
       <div className="experience-card-grid">
         <div className="experience-card">
           <h3>Infrastructure Automation Specialist</h3>
-          <div className="experience-meta">Safaricom PLC · Oct 2024 - Apr 2025</div>
+          <div className="experience-meta">Oct 2024 - Apr 2025</div>
           <p>Built IaC workflows and hybrid cloud deployment pipelines using Terraform, Ansible, and Kubernetes.</p>
         </div>
         <div className="experience-card">
