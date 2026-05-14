@@ -744,35 +744,6 @@ function Home() {
                 }}>
                 View My Work
               </button>
-              <a href="https://charlesochieng.hashnode.dev" 
-                 target="_blank" 
-                 rel="noopener noreferrer"
-                 style={{
-                   background: 'transparent',
-                   color: '#ffffff',
-                   border: '1px solid #374151',
-                   padding: 'clamp(0.6rem, 2vw, 0.75rem) clamp(1rem, 3vw, 1.5rem)',
-                   borderRadius: '6px',
-                   fontSize: 'clamp(0.8rem, 2vw, 0.9rem)',
-                   fontWeight: 600,
-                   cursor: 'pointer',
-                   textDecoration: 'none',
-                   display: 'flex',
-                   alignItems: 'center',
-                   gap: '0.5rem',
-                   transition: 'all 0.3s ease',
-                   whiteSpace: 'nowrap'
-                 }}
-                 onMouseEnter={(e) => {
-                   e.target.style.borderColor = '#3b82f6';
-                   e.target.style.color = '#3b82f6';
-                 }}
-                 onMouseLeave={(e) => {
-                   e.target.style.borderColor = '#374151';
-                   e.target.style.color = '#ffffff';
-                 }}>
-                📝 Read My Blogs
-              </a>
               <button 
                 onClick={() => document.getElementById('contact')?.scrollIntoView({behavior: 'smooth'})}
                 style={{
