@@ -690,7 +690,7 @@ function Home() {
               color: '#64748b',
               marginBottom: '0.5rem',
               fontWeight: 500
-            }}>DevOps & Infrastructure Engineering</div>
+            }}>Cloud Automation & Platform Engineering</div>
             
             <h1 style={{
               fontSize: 'clamp(2rem, 6vw, 4rem)',
@@ -705,14 +705,14 @@ function Home() {
               color: '#3b82f6',
               fontWeight: 600,
               marginBottom: '0.5rem'
-            }}>DevOps & Infrastructure Engineer</div>
+            }}>Infrastructure & Automation Specialist</div>
             
             <div style={{
               fontSize: 'clamp(0.9rem, 2.5vw, 1rem)',
               color: '#64748b',
               marginBottom: 'clamp(1.5rem, 4vw, 2rem)',
               lineHeight: 1.6
-            }}>Specializing in cloud architectures, containerization, and infrastructure automation. Passionate about optimizing cloud costs and enhancing system reliability through DevOps practices.</div>
+            }}>Building scalable infrastructure solutions with cloud orchestration, automation, and resilient operations.</div>
             
             <div style={{
               display: 'flex',
@@ -809,16 +809,12 @@ function Home() {
               fontSize: '0.875rem',
               lineHeight: 1.6
             }}>
-              <CodeLine number="01">const engineer = {'{'};</CodeLine>
-              <CodeLine number="02">  name: <span style={{color: '#10b981'}}>'Eric Njagi'</span>,</CodeLine>
-              <CodeLine number="05">  experience: <span style={{color: '#10b981'}}>'3+ years'</span>,</CodeLine>
-              <CodeLine number="06">  skills: [</CodeLine>
-              <CodeLine number="07">    <span style={{color: '#10b981'}}>'Cloud'</span>, <span style={{color: '#10b981'}}>'Kubernetes'</span>, <span style={{color: '#10b981'}}>'OpenShift'</span>,</CodeLine>
-              <CodeLine number="08">    <span style={{color: '#10b981'}}>'Terraform'</span>, <span style={{color: '#10b981'}}>'Ansible'</span>, <span style={{color: '#10b981'}}>'Python'</span></CodeLine>
-              <CodeLine number="09">  ],</CodeLine>
-              <CodeLine number="10">  infrastructure: () =&gt; manageCloudResources(),</CodeLine>
-              <CodeLine number="11">  contact: <span style={{color: '#10b981'}}>'kina3eric@gmail.com'</span></CodeLine>
-              <CodeLine number="12">{'}'};</CodeLine>
+              <CodeLine number="01">const platform = {'{'};</CodeLine>
+              <CodeLine number="02">  name: <span style={{color: '#10b981'}}>'TrustHome'</span>,</CodeLine>
+              <CodeLine number="03">  stack: [<span style={{color: '#10b981'}}>'React'</span>, <span style={{color: '#10b981'}}>'Node.js'</span>, <span style={{color: '#10b981'}}>'Docker'</span>],</CodeLine>
+              <CodeLine number="04">  focus: <span style={{color: '#10b981'}}>'Integrated market platform'</span>,</CodeLine>
+              <CodeLine number="05">  status: <span style={{color: '#10b981'}}>'production'</span>,</CodeLine>
+              <CodeLine number="06">{'}'};</CodeLine>
             </div>
             
             {/* Status Bar */}
@@ -1092,37 +1088,6 @@ function Home() {
         </div>
       </section>
 
-      {/* About Section */}
-      <section id="about" style={{
-        background: 'linear-gradient(135deg, rgba(30, 41, 59, 0.75) 0%, rgba(51, 65, 85, 0.65) 100%)',
-        padding: '6rem 2rem',
-        borderTop: '1px solid rgba(255, 255, 255, 0.15)',
-        backdropFilter: 'blur(15px)'
-      }}>
-        <div style={{
-          maxWidth: '1200px',
-          margin: '0 auto',
-          textAlign: 'center'
-        }}>
-          <h2 style={{
-            fontSize: 'clamp(2rem, 4vw, 3rem)',
-            fontWeight: 800,
-            color: '#ffffff',
-            marginBottom: '1rem'
-          }}>About Me</h2>
-          <p style={{
-            fontSize: '1.125rem',
-            color: '#64748b',
-            maxWidth: '800px',
-            margin: '0 auto 3rem auto',
-            lineHeight: 1.7
-          }}>
-            DevOps specialist, building solutions that impact thousands of users across Kenya. 
-            Part of the growing tech talent ecosystem, passionate about continuous learning, community building, and sharing knowledge through technical presentations and mentorship.
-          </p>
-        </div>
-      </section>
-
       {/* Experience Section */}
       <section id="experience" style={{
         background: 'linear-gradient(135deg, rgba(30, 41, 59, 0.8) 0%, rgba(51, 65, 85, 0.7) 100%)',
@@ -1139,82 +1104,6 @@ function Home() {
       </section>
 
 
-
-      {/* Projects Section */}
-      <section id="projects" style={{
-        background: 'linear-gradient(135deg, rgba(30, 41, 59, 0.82) 0%, rgba(51, 65, 85, 0.72) 100%)',
-        padding: 'clamp(3rem, 8vw, 6rem) clamp(1rem, 4vw, 2rem)',
-        borderTop: '1px solid rgba(255, 255, 255, 0.15)',
-        backdropFilter: 'blur(15px)'
-      }}>
-        <div style={{
-          maxWidth: '1200px',
-          margin: '0 auto'
-        }}>
-          <h2 style={{
-            fontSize: 'clamp(2rem, 4vw, 3rem)',
-            fontWeight: 800,
-            color: '#ffffff',
-            marginBottom: '3rem',
-            textAlign: 'center'
-          }}>Projects</h2>
-          
-          <div className="projects-grid" style={{
-            display: 'grid',
-            gridTemplateColumns: 'repeat(auto-fit, minmax(min(350px, 100%), 1fr))',
-            gap: 'clamp(1rem, 3vw, 2rem)'
-          }}>
-            <SimpleProjectCard 
-              title="Hypervisor Deployment Automation"
-              description="Automated KVM hypervisor deployment for enterprise environments"
-              technologies={['KVM', 'Ansible', 'Terraform']}
-              link="https://gitlab.com/cloudchuck/kvm_deplyoment"
-              backgroundImage="/assets/images/projects/hypervisor-bg.jpg"
-            />
-            <SimpleProjectCard 
-              title="Multi/Hybrid-Cloud Management Platform"
-              description="Unified platform for hybrid cloud infrastructure management"
-              technologies={['AWS', 'Azure', 'Python', 'Docker']}
-              link="https://gitlab.com/cloudchuck/cloud_manager_stack.git"
-              backgroundImage="/assets/images/projects/multicloud-bg.jpg"
-            />
-            <SimpleProjectCard 
-              title="Terraform VM Deployment"
-              description="Infrastructure as Code for automated VM provisioning"
-              technologies={['Terraform', 'vSphere', 'HashiCorp']}
-              link="https://gitlab.com/cloudchuck/terraform_vm_deployment.git"
-              backgroundImage="/assets/images/projects/terraform-bg.jpg"
-            />
-            <SimpleProjectCard 
-              title="Integrated Domestic Market Platform (TrustHome)"
-              description="TrustHome marketplace platform for domestic trade and service integration"
-              technologies={['React', 'Node.js', 'Docker']}
-              link="https://github.com/ChuckyCharles/TrustHome"
-              backgroundImage="/assets/images/projects/kubernetes-bg.jpg"
-            />
-          </div>
-          
-          <div style={{
-            textAlign: 'center',
-            marginTop: '3rem'
-          }}>
-            <a href="https://gitlab.com/cloudchuck" 
-               target="_blank" 
-               rel="noopener noreferrer"
-               style={{
-                 background: '#3b82f6',
-                 color: '#ffffff',
-                 padding: '0.75rem 1.5rem',
-                 borderRadius: '6px',
-                 textDecoration: 'none',
-                 fontSize: '0.9rem',
-                 fontWeight: 600
-               }}>
-              View All Projects
-            </a>
-          </div>
-        </div>
-      </section>
 
       {/* Contact Section */}
       <section id="contact" style={{
