@@ -1157,7 +1157,7 @@ function Home() {
             color: '#ffffff',
             marginBottom: '3rem',
             textAlign: 'center'
-          }}>Featured Projects</h2>
+          }}>Projects</h2>
           
           <div className="projects-grid" style={{
             display: 'grid',
@@ -1186,10 +1186,10 @@ function Home() {
               backgroundImage="/assets/images/projects/terraform-bg.jpg"
             />
             <SimpleProjectCard 
-              title="OpenShift Voting Application"
-              description="Containerized voting app with CI/CD on ROSA"
-              technologies={['OpenShift', 'Kubernetes', 'ROSA']}
-              link="https://github.com/ChuckyCharles/Voting_App_Openshift"
+              title="Integrated Domestic Market Platform (TrustHome)"
+              description="TrustHome marketplace platform for domestic trade and service integration"
+              technologies={['React', 'Node.js', 'Docker']}
+              link="https://github.com/ChuckyCharles/TrustHome"
               backgroundImage="/assets/images/projects/kubernetes-bg.jpg"
             />
           </div>
