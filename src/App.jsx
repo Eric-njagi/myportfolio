@@ -1169,7 +1169,7 @@ function Home() {
                    }}>
                   ✉️ Email Me
                 </a>
-                <a href="tel:+254718166201" 
+                <a href="tel:+254704955109" 
                    style={{
                      background: 'transparent',
                      color: '#ffffff',
