@@ -631,7 +631,7 @@ function Home() {
             >
               <i className="fab fa-twitter"></i>
             </a>
-            <a href="mailto:ochiengcharles531@gmail.com" 
+            <a href="mailto:kina3eric@gmail.com" 
                style={{
                  color: 'rgba(255, 255, 255, 0.8)',
                  fontSize: '1.5rem',
@@ -1152,7 +1152,7 @@ function Home() {
                 gap: '1rem',
                 flexWrap: 'wrap'
               }}>
-                <a href="mailto:ochiengcharles531@gmail.com" 
+                <a href="mailto:kina3eric@gmail.com" 
                    style={{
                      background: '#3b82f6',
                      color: '#ffffff',
